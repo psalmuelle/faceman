@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@smile_identity/smart-camera-web": "^1.0.2",
+    "@tensorflow-models/face-detection": "^1.0.2",
+    "@tensorflow/tfjs": "^4.16.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
