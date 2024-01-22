@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.webcam-container{
+  width: 200px;
+  height: 230px;
+ border: 4px solid #3498db;
+ border-radius: 100%;
+  margin: 100px auto;
+  margin-bottom: 0px;
+  position: relative;
+}
+.webcam{
+  display: block;
+  border-radius: 100%;
+}
+.capture-btn{
+  display: block;
+  margin: 24px auto;
+  padding: 16px 24px;
+  cursor: pointer;
+}
+.result-image{
+ display: block;
+ margin: 16px auto;
+}
+.image-canvas{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.inactive{
+text-align: center;
+font-weight: 600;
+color: red;
+}
+
+.active{
+  text-align: center;
+  font-weight: 600;
+  color: green;
+}
+.snapped-images{
+  display: flex;
+  flex-wrap: wrap;
+  background: #3498db;
+}
+.final-image{
+  display: block;
+  width: fit-content;
+  margin: 100px auto;
+  margin-bottom: 0px;
+  position: relative;
+}
